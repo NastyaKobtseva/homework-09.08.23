@@ -1,0 +1,57 @@
+.lessons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.day-list {
+    list-style-type: none;
+    padding: 20px;
+    border: 1 px solid #ccc;
+    width: 150px;
+}
+
+.day-list li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.day-list li:hover {
+    background-color: #f2f2f2;
+}
+
+.day-list li:active {
+    background-color: #ddd;
+}
+
+.day-list li:focus {
+    outline: 2px solid blue;
+}
+
+.day-list li:visited {
+    color: purple;
+}
+
+.day-list li:disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.day-list li:first-child {
+    font-weight: bold;
+}
+
+.day-list li:last-child {
+    font-style: italic;
+}
+
+.day-list li:nth-child(odd) {
+    background-color: #e6f7ff;
+}
+
+.day-list li:nth-child(even) {
+    background-color: #ffeded;
+}
+
